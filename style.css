@@ -5,9 +5,16 @@
 
 
 /*<!--GRUPO BODY-->*/ 
-
-
-
+body {
+    background-image: url('anexos/fondo_pantalla.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
 
 
 /*<!--GRUPO FOOTER-->*/ 
+
+
