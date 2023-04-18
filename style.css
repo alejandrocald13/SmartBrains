@@ -23,12 +23,12 @@ body {
     align-items: center;
 }
 .section {
-    background: rgba(8, 0, 80, 0.678);
+    background-image: url('anexos/imagen_inicio_prueba.jpg');
     width: 40%;
     height: 100%;
 }
 .aside {
-    background: rgba(8, 0, 80, 0.678);
+    background-image: url('anexos/fondo_texto.png');
     width: 30%;
     height: 100%;
 }
