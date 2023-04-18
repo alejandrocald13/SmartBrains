@@ -9,6 +9,7 @@ ul {
   width: 40%;
   list-style: none;
   justify-content: space-around;
+  align-items: center;
 }
 
 .site-header{
