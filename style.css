@@ -14,8 +14,23 @@ body {
     color: #FFFFFF;
 }
 
-.Defi {
-justify-content: right;
+.main {
+    background: transparent;
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    background: rgba(8, 0, 80, 0.678);
+    width: 40%;
+    height: 100%;
+}
+.aside {
+    background: rgba(8, 0, 80, 0.678);
+    width: 30%;
+    height: 100%;
 }
 
 
