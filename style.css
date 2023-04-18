@@ -11,7 +11,18 @@ ul {
   justify-content: space-around;
 }
 
-li button {
+.site-header{
+  background-color: #3e8e41;
+  padding: 1rem 0 3rem 0;
+}
+.inicio{
+  background-image: url(../anexos/imagen-header.jpg);
+   background-position: center center;
+   background-size: cover;
+   height: 100vh;
+   min-height: 60rem;
+}
+button {
   background-color: #4CAF50;
   color: #fff;
   padding: 10px 20px;
