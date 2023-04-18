@@ -1,3 +1,4 @@
+
 a {
   text-decoration: none;
   color: #000;
@@ -11,7 +12,7 @@ ul {
 }
 
 li button {
-  background-color: #a6d3a8;
+  background-color: #4CAF50;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -23,3 +24,10 @@ li button {
 li button:hover {
   background-color: #3e8e41;
 }
+
+/*<!--GRUPO BODY-->*/ 
+
+
+
+
+/*<!--GRUPO FOOTER-->*/
