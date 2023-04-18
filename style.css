@@ -29,6 +29,7 @@ body {
     height: 100%;
 }
 .espacio {
+    background-color: transparent;
     width: 20%;
     height: 100%;
 }
