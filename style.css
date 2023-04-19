@@ -26,7 +26,7 @@ body {
     height: 200px;
 }
 
-.main {
+.info {
     background: transparent;
     width: 100%;
     height: calc(100vh - 200px);
@@ -52,6 +52,23 @@ body {
     width: 40%;
     height: 52%;
 }
+
+.Mobs {
+    background-color: #02000f98;
+    text-align: center;
+}
+.hosti {
+    background-color: #02000f98;
+    text-align: center;
+}
+.hostiles {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    height: 750px;
+}
+
+
 
 
 
