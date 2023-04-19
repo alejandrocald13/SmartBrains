@@ -35,13 +35,13 @@ body {
     align-items: center;
 }
 .section {
-    background-image: url('anexos/imagen_inicio_prueba.jpg');
+    background-image: url('anexos/imagen_inicio.jpg');
     background-size: cover;
     width: 40%;
     height: 75%;
 }
 .espacio {
-    width: 10%;
+    width: 7%;
     height: 100%;
 }
 .aside {
@@ -49,8 +49,8 @@ body {
     background-size: contain;
     background-position: center;
     text-align: center;
-    width: 40%;
-    height: 52%;
+    width: 38%;
+    height: 50%;
 }
 
 .Mobs {
