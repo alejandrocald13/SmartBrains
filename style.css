@@ -1,3 +1,4 @@
+
 /*<!--GRUPO HEADER-->*/ 
 
 
@@ -26,7 +27,7 @@ body {
     height: 200px;
 }
 
-.main {
+.info {
     background: transparent;
     width: 100%;
     height: calc(100vh - 200px);
@@ -36,13 +37,17 @@ body {
     align-items: center;
 }
 .section {
+
     background-image: url('https://cdn.discordapp.com/attachments/1080150530342535232/1081797057351786607/Comprar_Minecraft_for_Windows___Xbox.jpg');
+
+    background-image: url('anexos/imagen_inicio.jpg');
+
     background-size: cover;
     width: 40%;
     height: 75%;
 }
 .espacio {
-    width: 10%;
+    width: 7%;
     height: 100%;
 }
 .aside {
@@ -50,12 +55,27 @@ body {
     background-size: contain;
     background-position: center;
     text-align: center;
-    width: 40%;
-    height: 52%;
+    width: 38%;
+    height: 50%;
+}
+
+.Mobs {
+    background-color: #02000f98;
+    text-align: center;
+}
+.hosti {
+    background-color: #02000f98;
+    text-align: center;
+}
+.hostiles {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 750px;
 }
 
 
 
+
+
 /*<!--GRUPO FOOTER-->*/ 
-
-
