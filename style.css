@@ -27,21 +27,16 @@ body {
     height: 200px;
 }
 
-.info {
+.main {
     background: transparent;
     width: 100%;
     height: calc(100vh - 200px);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .section {
-
-    background-image: url('https://cdn.discordapp.com/attachments/1080150530342535232/1081797057351786607/Comprar_Minecraft_for_Windows___Xbox.jpg');
-
     background-image: url('anexos/imagen_inicio.jpg');
-
     background-size: cover;
     width: 40%;
     height: 75%;
@@ -73,8 +68,11 @@ body {
     width: 100%;
     height: 750px;
 }
-.pacificos {
+.pacific {
     background-color: #02000f98;
+    text-align: center;
+}
+.pacificos {
     text-align: center;
 }
 
