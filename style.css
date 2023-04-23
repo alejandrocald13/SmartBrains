@@ -1,40 +1,54 @@
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-ul {
-  display: flex;
-  width: 40%;
-  list-style: none;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .site-header{
   background-color: #3e8e41;
   padding: 1rem 0 3rem 0;
 }
+
 .Inicio{
-  background-image: url(anexos/imagen-header1.jpg);
-   background-position: center center;
+  background-image: url("anexos/fondo_header.jpeg");
+   background-position: center;
    background-size: cover;
-   height: 100vh;
-   min-height: 60rem;
+   height: 30vh;
+
 }
+
+h1 {
+  height: 1rem;
+  width: 25%;
+  margin-top: 1rem;
+  text-align: center;
+  padding: 5rem;
+  background-image: url("https://2.bp.blogspot.com/-E_aYkUTBbnE/UmKdMPaglRI/AAAAAAAACh0/HdtyLFqCreQ/s1600/Minecraft-logo.png");
+  background-size: cover;
+  font-size: 100px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: none;
+}
+
+ul {
+  display: flex;
+  width: 50%;
+  list-style: none;
+  justify-content: space-around;
+  margin: auto;
+}
+
 button {
-  background-color: #4CAF50;
+  background-color: #9f9f9f;
   color: #fff;
-  padding: 10px 20px;
+  padding: 20px 30px;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
+  display: block;
 }
 
 li button:hover {
-  background-color: #3e8e41;
+  background-color: #929292;
+  
 }
 
 /*<!--GRUPO BODY-->*/ 
