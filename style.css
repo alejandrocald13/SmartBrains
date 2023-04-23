@@ -1,59 +1,179 @@
-.site-header{
-  background-color: #3e8e41;
-  padding: 1rem 0 3rem 0;
-}
 
-.Inicio{
-  background-image: url("anexos/fondo_header.jpeg");
-   background-position: center;
-   background-size: cover;
-   height: 30vh;
-
-}
-
-h1 {
-  height: 1rem;
-  width: 25%;
-  margin-top: 1rem;
-  text-align: center;
-  padding: 5rem;
-  background-image: url("https://2.bp.blogspot.com/-E_aYkUTBbnE/UmKdMPaglRI/AAAAAAAACh0/HdtyLFqCreQ/s1600/Minecraft-logo.png");
+/*<!--GRUPO HEADER-->*/ 
+header{
+  background: url(/anexos/fondoarriba.png)no-repeat;
   background-size: cover;
-  font-size: 100px;
-  margin: auto;
+  height: 250px;
+  overflow: hidden;
+
 }
 
-a {
-  text-decoration: none;
-  color: none;
-}
-
-ul {
-  display: flex;
-  width: 50%;
-  list-style: none;
-  justify-content: space-around;
-  margin: auto;
-}
-
-button {
-  background-color: #9f9f9f;
+h1{
   color: #fff;
-  padding: 20px 30px;
-  border: none;
-  cursor: pointer;
-  font-size: 20px;
-  display: block;
+  text-align:  center;
+  font-family: 'Bangers', cursive;
+  font-size: 80px;
+  text-shadow: 5px 3px 8px #785;
+
 }
 
-li button:hover {
-  background-color: #929292;
-  
+.nav ul{
+  list-style: none;
+  text-align:center;
+  position:relative;
+  top: -55px;
+  right: -40px;
+  background-color: rgba(183, 255, 1, 0);
+  padding: 0;
+  margin: 0 ;
 }
+
+.nav li{
+display: inline-block;
+
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+  width: 200px;
+  display:inline-block ;
+  text-transform: capitalize;
+  font-size: 30px;
+  text-align: start;
+  font-weight: bolder;
+  
+
+}
+
+.caja1{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top: -84px;
+  right: 400px;
+
+}
+
+.caja2{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top: -155px;
+  right: -420px;
+
+}
+
+.caja3{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top: -225px;
+  right: -220px;
+
+}
+
+.caja4{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top: -294px;
+  right: -10px;
+}
+.caja5{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top: -365px;
+  right: 190px;
+}
+
+
+
+
+
+
+
+
 
 /*<!--GRUPO BODY-->*/ 
 
+body{
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
 
 
 
-/*<!--GRUPO FOOTER-->*/
+
+
+
+
+
+/*<!--GRUPO FOOTER-->*/ 
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+
