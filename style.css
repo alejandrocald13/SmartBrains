@@ -1,3 +1,4 @@
+
 /*<!--GRUPO HEADER-->*/ 
 header{
   background: url(/anexos/fondoarriba.png)no-repeat;
@@ -94,6 +95,7 @@ display: inline-block;
 
 
 
+
 /*<!--GRUPO BODY-->*/ 
 
 body{
@@ -174,24 +176,4 @@ footer{
   font-size: 1.1rem;
   transition: color .4s ease;
 
-}
-.socials a:hover i{
-  color: aqua;
-}
 
-.footer-bottom{
-  background: #000;
-  width: 100vw;
-  padding: 20px 0;
-  text-align: center;
-}
-.footer-bottom p{
-  font-size: 14px;
-  word-spacing: 2px;
-  text-transform: capitalize;
-}
-.footer-bottom span{
-  text-transform: uppercase;
-  opacity: .4;
-  font-weight: 200;
-}
