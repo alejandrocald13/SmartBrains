@@ -8,51 +8,41 @@ header{
 }
 
 h1{
-  text-align: center;
-  font-family: lato;
-  margin: 50px 0px;
-  font-size: 1.8rem;
+  color: #fff;
+  text-align:  center;
+  font-family: 'Bangers', cursive;
+  font-size: 80px;
+  text-shadow: 5px 3px 8px #785;
 
 }
 
-.imagenfondo{
-  position: absolute;
-  width: 500pc;
-  height: 500pc;
-  margin: auto;
-  align-items: center;
-
-}
-
-img{
-  align-items: center;
-}
-nav{
-  background-color: rgba(153, 136, 221, 0);
-  height: 40px;
-  overflow: hidden;
-
-}
-
-#menu{
-  margin: 0 auto;
-  width: 1000px;
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0);
-
-
-}
-
-li{
-  float: left;
-  width: 100px;
+.nav ul{
   list-style: none;
-  text-align: center;
-}
-li:hover{
-  background-color: ;
+  text-align:center;
+  position:relative;
+  top: -30px;
+  right: -30px;
+  background-color: rgba(0, 0, 255, 0);
+  padding: 0;
+  margin: 0 ;
 }
 
+.nav li{
+display: inline-block;
+
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+  width: 200px;
+  display:inline-block ;
+  text-transform: capitalize;
+  font-size: 30px;
+  text-align: start;
+  
+
+}
 
 
 
@@ -61,6 +51,9 @@ li:hover{
 
 body{
   margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
  
 }
 
