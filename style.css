@@ -20,9 +20,9 @@ h1{
   list-style: none;
   text-align:center;
   position:relative;
-  top: -30px;
-  right: -30px;
-  background-color: rgba(0, 0, 255, 0);
+  top: -55px;
+  right: -40px;
+  background-color: rgba(183, 255, 1, 0);
   padding: 0;
   margin: 0 ;
 }
@@ -40,9 +40,56 @@ display: inline-block;
   text-transform: capitalize;
   font-size: 30px;
   text-align: start;
+  font-weight: bolder;
   
 
 }
+
+.caja1{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top: -84px;
+  right: 400px;
+
+}
+
+.caja2{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top: -155px;
+  right: -420px;
+
+}
+
+.caja3{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top: -225px;
+  right: -220px;
+
+}
+
+.caja4{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top: -294px;
+  right: -10px;
+}
+.caja5{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top: -365px;
+  right: 190px;
+}
+
+
+
+
 
 
 
