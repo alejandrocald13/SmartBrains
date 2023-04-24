@@ -1,7 +1,7 @@
 
 /*<!--GRUPO HEADER-->*/ 
 header{
-    background: url(anexos/fondoarriba.png)no-repeat;
+    background: url(anexos/fondoarriba.png)black;
     background-size: cover;
     height: 250px;
     overflow: hidden
@@ -76,10 +76,12 @@ display: inline-block;
   right: 190px;
 }
 /*<!--GRUPO BODY-->*/ 
-* {
-    font-family: rockwell;
-}
+    * {
+        font-family: rockwell;
+    }
 body {
+    padding:0px;
+    margin: 0px;
     background-image: url('anexos/fondo_final.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
