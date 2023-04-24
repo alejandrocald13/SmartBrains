@@ -7,7 +7,6 @@ header{
     overflow: hidden
 }
 .nav ul{
-  list-style: none;
   text-align:center;
   position:relative;
   top: -55px;
@@ -141,8 +140,8 @@ body {
   
   @media (min-width: 1367px) {
     .main {
+    padding: auto;
       text-align: center;
-      padding: 5em 0;
       background: transparent;
       width: 100%;
       height: calc(100vh - 200px);
