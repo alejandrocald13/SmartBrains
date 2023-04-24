@@ -83,11 +83,14 @@ body {
     background-color: #02000f98;
     text-align: center;
 }
+
 .hostiles {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 750px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15,.5);
 }
 .resenas {
     background-color: #02000f98;
@@ -102,8 +105,15 @@ body {
     text-align: center;
 }
 .pacificos {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15,.5);
 }
+
+
 .card {
     display: flex;
     position: relative;
