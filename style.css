@@ -1,7 +1,7 @@
 
 /*<!--GRUPO HEADER-->*/ 
 header{
-    background: url(/anexos/fondoarriba.png)no-repeat;
+    background: url(anexos/fondoarriba.png)no-repeat;
     background-size: cover;
     height: 250px;
     overflow: hidden
